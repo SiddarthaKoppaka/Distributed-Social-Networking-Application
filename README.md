@@ -3,22 +3,22 @@
 
 ```mermaid
 graph TD;
-    A[🧑 User] -->|Interacts| B[🌐 Frontend (React.js)]
-    B -->|Sends API Requests| C[🚀 Backend (Spring Boot API)]
+    A[User] -->|Interacts| B[Frontend (React.js)];
+    B -->|Sends API Requests| C[Backend (Spring Boot API)];
     
-    C -->|Handles Authentication| D[🔐 Auth Service]
-    C -->|Stores Media| E[📂 Media Storage (AWS S3)]
-    C -->|Stores Data| F[🏛 Database (PostgreSQL)]
+    C -->|Handles Authentication| D[Auth Service (JWT)];
+    C -->|Stores Media| E[Media Storage (AWS S3)];
+    C -->|Stores Data| F[Database (PostgreSQL)];
     
-    D -->|Generates JWT Tokens| C
-    E -->|Provides Media Links| C
-    F -->|Stores User & Post Data| C
+    D -->|Generates JWT Tokens| C;
+    E -->|Provides Media Links| C;
+    F -->|Stores User & Post Data| C;
     
-    C -->|Real-time Communication| G[⚡ WebSockets (Chat & Notifications)]
+    C -->|Real-time Communication| G[WebSockets (Chat & Notifications)];
     
-    C -->|Deployments| H[🚀 CI/CD & Docker Deployment]
+    C -->|Deployments| H[CI/CD & Docker Deployment];
     
-    H -->|Auto-Scaling & Containerization| C
+    H -->|Auto-Scaling & Containerization| C;
 ```
 
 
