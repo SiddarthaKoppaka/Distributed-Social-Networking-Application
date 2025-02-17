@@ -1,6 +1,26 @@
 # Distributed Social Media Networking Application
 
-![Architecture Flowchart](./flowchart.png)
+
+```mermaid
+graph TD;
+    A[🧑 User] -->|Interacts| B[🌐 Frontend (React.js)]
+    B -->|Sends API Requests| C[🚀 Backend (Spring Boot API)]
+    
+    C -->|Handles Authentication| D[🔐 Auth Service]
+    C -->|Stores Media| E[📂 Media Storage (AWS S3)]
+    C -->|Stores Data| F[🏛 Database (PostgreSQL)]
+    
+    D -->|Generates JWT Tokens| C
+    E -->|Provides Media Links| C
+    F -->|Stores User & Post Data| C
+    
+    C -->|Real-time Communication| G[⚡ WebSockets (Chat & Notifications)]
+    
+    C -->|Deployments| H[🚀 CI/CD & Docker Deployment]
+    
+    H -->|Auto-Scaling & Containerization| C
+```
+
 
 ## 🚀 Overview
 The **Distributed Social Media Networking Application** is designed to provide a **scalable, high-performance, and user-friendly social networking platform**. Built with **Spring Boot and React.js**, it supports **real-time communication, media sharing, and a microservices-based architecture**. 
