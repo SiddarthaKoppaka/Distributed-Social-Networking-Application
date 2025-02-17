@@ -1,7 +1,7 @@
 # Distributed Social Media Networking Application
 
+![SE Project](https://github.com/user-attachments/assets/953d29dc-dea5-4dd2-b960-05d6d6c5f225)
 
-![SE Project](https://github.com/user-attachments/assets/8e71d258-6cb8-4d56-a897-f8bb0fbdc5a4)
 
 ## 🚀 Overview
 The **Distributed Social Media Networking Application** is designed to provide a **scalable, high-performance, and user-friendly social networking platform**. Built with **Spring Boot and React.js**, it supports **real-time communication, media sharing, and a microservices-based architecture**. 
