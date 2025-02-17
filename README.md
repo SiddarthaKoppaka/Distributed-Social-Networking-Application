@@ -40,8 +40,8 @@ This application is containerized using **Docker**, ensuring seamless deployment
 ## 🔧 Installation & Setup
 ### **1️⃣ Clone the Repository**
 ```sh
-git clone https://github.com/yourusername/social-network.git
-cd social-network
+git clone git@github.com:SiddarthaKoppaka/Distributed-Social-Networking-Application.git
+cd Distributed-Social-Networking-Application
 ```
 
 ### **2️⃣ Backend Setup**
@@ -56,7 +56,7 @@ mvn spring-boot:run
 ### **3️⃣ Frontend Setup**
 Ensure **Node.js (v16+)** is installed.
 ```sh
-cd ../Frontend
+cd ../se-frontend
 npm install
 npm start
 ```
