@@ -26,7 +26,6 @@ This application is containerized using **Docker**, ensuring seamless deployment
 - **Dockerized Services** – Deployments using Docker
 - **CI/CD Pipeline (GitHub Actions)** – Automated testing and deployment
 - **AWS S3 for Media Storage** – Scalable cloud storage for user uploads
-- **Redis for Caching** – Optimized performance with session caching
 - **WebSockets for Real-time Notifications** – Live updates and messaging
 
 ## 🌟 Features
